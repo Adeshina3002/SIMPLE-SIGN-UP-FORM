@@ -1,0 +1,83 @@
+html, body {
+  box-sizing: border-box;
+  display: flex;
+  padding: 40px;
+  margin: 0px 20px;
+  font-size: 18px;
+  background-color: rgba(160, 93, 45, 0.859);
+  border-radius: 20px;
+  max-width: 100%;
+}
+
+body {
+  box-shadow: 10px 20px 16px rgb(96, 42, 18);
+}
+
+#wrap {
+  padding-right: 10px;
+}
+
+#wrap .text-1 {
+  font-size: 65px;
+  width: 140%;
+  margin-right: 400px;
+  margin-top: 160px;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: bolder;
+}
+
+#wrap .text-2 {
+  color: #fff;
+  line-height: 25px;
+  letter-spacing: 1.5px;
+}
+
+h5 {
+  background-color: purple;
+  width: 95%;
+  text-align: center;
+  color: #fff;
+  /* margin: 80px; */
+  padding: 10px;
+}
+
+form {
+  background-color: #fff;
+  padding-top: 30px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.30) 0px 19px 38px, rgba(0,0,0,0.22) 0px 15px 12px;
+}
+
+input {
+  margin-left: 15px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  width: 87%;
+  padding: 10px;  
+}
+
+button {
+  background-color: green;
+  width: 93%;
+  margin: 0px 15px -20px 15px;
+  border-radius: 10px;
+  padding: 10px;
+  color: #fff;
+}
+
+button:hover {
+  background-color: rgba(6, 95, 6, 0.922);
+  font-size: 20px;
+}
+
+.footer {
+  font-size: 19px;
+  text-align: center;
+  padding: 15px;
+}
+
+.footer a {
+  text-decoration: none;
+}
